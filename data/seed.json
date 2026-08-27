@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "siteName": "آزمایا",
+    "siteNameEn": "AZMAYA",
+    "supportPhone": "021-91001234",
+    "supportEmail": "support@azmaya.ir"
+  },
+  "users": [
+    {
+      "id": "u1",
+      "name": "مدیر سامانه",
+      "email": "admin@azmaya.ir",
+      "phone": "09120000000",
+      "passwordHash": "$2a$10$MGr6wc6mLliF6erC6kW45uTBOGMu4KWd1cFCjupeoI7eZ5TJeb4B6",
+      "role": "admin",
+      "createdAt": "2026-01-10",
+      "status": "active"
+    }
+  ],
+  "tests": [
+    { "id": "t1", "title": "آزمون سرعت تایپ فارسی", "category": "typing", "lang": "fa", "level": "basic", "duration": 3, "price": 49000, "questions": 0, "status": "active",
+      "desc": "سنجش دقیق سرعت (WPM) و صحت تایپ فارسی شما بر پایه‌ی یک متن استاندارد، به‌همراه گزارش خطاها.",
+      "content": "مدیریت زمان یکی از مهم‌ترین مهارت‌هایی است که هر فرد در محیط کار به آن نیاز دارد. کسی که بتواند وظایف روزانه خود را به‌درستی اولویت‌بندی کند، در بلندمدت بهره‌وری بیشتری خواهد داشت و از فشار کاری کمتری رنج می‌برد." },
+    { "id": "t2", "title": "آزمون سرعت تایپ انگلیسی", "category": "typing", "lang": "en", "level": "basic", "duration": 3, "price": 49000, "questions": 0, "status": "active",
+      "desc": "Measure your English typing speed (WPM) and accuracy against a standard business passage.",
+      "content": "Effective communication is the foundation of every successful organization. Teams that share information clearly and listen actively tend to solve problems faster and build stronger working relationships over time." },
+    { "id": "t3", "title": "آزمون ترجمه انگلیسی به فارسی (سطح پایه)", "category": "translate", "lang": "en-fa", "level": "basic", "duration": 15, "price": 79000, "questions": 0, "status": "active",
+      "desc": "ترجمه‌ی یک متن کوتاه و ساده از انگلیسی به فارسی؛ مناسب افرادی که در ابتدای مسیر یادگیری ترجمه هستند.",
+      "content": "Many people believe that learning a new language opens doors to new opportunities. It allows travelers to connect with local communities and understand different cultures more deeply." },
+    { "id": "t4", "title": "آزمون زبان انگلیسی (گرامر و واژگان)", "category": "language", "lang": "en", "level": "mid", "duration": 20, "price": 99000, "questions": 20, "status": "active",
+      "desc": "۲۰ سؤال چهارگزینه‌ای برای سنجش دانش گرامر و دایره واژگان در سطح متوسط." },
+    { "id": "t5", "title": "آزمون هوش (IQ)", "category": "iq", "lang": "fa", "level": "mid", "duration": 25, "price": 89000, "questions": 25, "status": "active",
+      "desc": "۲۵ سؤال منطقی، عددی و تصویری برای برآورد ضریب هوشی و توان تحلیلی." },
+    { "id": "t6", "title": "شبیه‌ساز آزمون آیلتس — بخش ریدینگ", "category": "ielts", "lang": "en", "level": "adv", "duration": 40, "price": 149000, "questions": 40, "status": "active",
+      "desc": "شبیه‌سازی کامل بخش Reading آزمون آیلتس با استاندارد زمان‌بندی و سطح دشواری واقعی." },
+    { "id": "t7", "title": "آزمون عمومی استخدامی", "category": "employment", "lang": "fa", "level": "mid", "duration": 30, "price": 129000, "questions": 30, "status": "active",
+      "desc": "دربرگیرنده‌ی سؤالات هوش، ریاضی عمومی، ادبیات فارسی و اطلاعات عمومی، هم‌سو با آزمون‌های استخدامی رسمی." }
+  ],
+  "transactions": [],
+  "results": [],
+  "otps": {}
+}
